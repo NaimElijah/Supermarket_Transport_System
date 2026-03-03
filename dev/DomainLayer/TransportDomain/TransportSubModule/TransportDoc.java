@@ -13,7 +13,7 @@ public class TransportDoc {
     private enumTranStatus status;
     private LocalDateTime departure_dt;
     private Truck transportTruck;
-    private int transportTruckNumber;   //  TODO:   for database        <<<---------------------------    <<-----------------------
+    private int transportTruckNumber;   //     <<<---------------------------   for database
     private long transportDriverId;
     private double truck_Depart_Weight;
     private Site src_site;
@@ -53,9 +53,10 @@ public class TransportDoc {
     public int getTran_Doc_ID() {return tran_Doc_ID;}
     public void setTran_Doc_ID(int tran_Doc_ID) {this.tran_Doc_ID = tran_Doc_ID;}
 
-
     public LocalDateTime getDeparture_dt() {return departure_dt;}
     public void setDeparture_dt(LocalDateTime departure_dt) { this.departure_dt = departure_dt; }
+
+
 
     public void calculateItemsDocsArrivalTimesInTransport(){
         LocalDateTime dateTimeCounter = this.getDeparture_dt().plusMinutes(0);  // to get a copy

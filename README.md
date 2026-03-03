@@ -1,4 +1,4 @@
-# ADSS Group A - Supermarket Management System
+# Supermarket Management System
 
 This is a Java-based Supermarket Management System that handles employee management, transport management, site management, and inventory management.
 
