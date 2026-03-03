@@ -1,8 +1,11 @@
 # Supermarket Management System
 
-This is a Java-based Supermarket Management System that handles employee management, transport management, site management, and inventory management.
+This is a Java-based Supermarket Management System that handles employee management, transport management, site management, and vehicle management. Below are technical Project execution info.
 
-## Group Members
+## Note
+#### The full System Guide is in the /docs folder, in instructions.md.
+
+## Team Members
 * Sub-Team A
    * Naim Elijah
 * Sub-Team B
